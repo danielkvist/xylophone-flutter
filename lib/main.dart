@@ -15,6 +15,19 @@ import 'package:audioplayers/audio_cache.dart';
 // The type void mark the function as one without output.
 //  -> void main() {...}
 
+// Dart Arrow functions
+// void main () {...} = void main () => {...}
+//
+// The Arrow function is used when the function body
+// is only a single line of code.
+// We can also omit the word return.
+// int add() => 5 + 2;
+// 
+// Remember, you can only have one single line of code.
+//
+// You can use arguments:
+// int add(int n1, int n2) => n1 + n2;
+
 void main() => runApp(XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {
